@@ -1,6 +1,6 @@
 # Understanding ds-ai-ml-dl-nn
 
-**1 . Autoencoders** properly in the hierarchy form :
+**Practical-1 . Autoencoders** properly in the hierarchy form :
 
 * **Field** → **Machine Learning (ML)**
 * **Subfield** → **Deep Learning (DL)** (because they use neural networks with multiple layers)
@@ -11,7 +11,7 @@
 
 ---
 
-### 2. Natural Language Processing (NLP) in Hierarchy
+**Practical-2 . Natural Language Processing (NLP)** in Hierarchy
 
 **Field → Artificial Intelligence (AI)**
 **Subfield → Machine Learning (ML)**
