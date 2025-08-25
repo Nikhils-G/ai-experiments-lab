@@ -1,4 +1,4 @@
-# Understanding-AutoEncoders
+# Understanding ds-ai-ml-dl-nn
 
 **Autoencoders** properly in the hierarchy form :
 
