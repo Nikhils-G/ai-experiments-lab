@@ -8,7 +8,7 @@
 * **Technique** → **Representation Learning / Dimensionality Reduction** (they learn compressed, meaningful features from data)
 
 
-```markdown
+
 ```mermaid
 graph TD
     A[Artificial Intelligence] --> B[Machine Learning]
