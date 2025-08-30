@@ -92,7 +92,7 @@ I used `MLPRegressor` (Multi-Layer Perceptron) → this is a simple **feedforwar
 * **Linear models** (like regression) can only capture *straight-line relationships*.
 * **Neural networks** can capture **non-linear and complex patterns** because they stack layers and use non-linear activations.
 * This makes them powerful for tasks like image recognition, speech, and language understanding → where relationships aren’t simple lines but complex curves.
-👉 **Key takeaway:** Neural networks **generalize beyond straight lines** → they can approximate *any function* given enough layers and neurons (this is called the **Universal Approximation Theorem**).
+**Key takeaway:** Neural networks **generalize beyond straight lines** → they can approximate *any function* given enough layers and neurons (this is called the **Universal Approximation Theorem**).
 
 ---
 
