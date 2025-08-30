@@ -61,3 +61,39 @@ LLMs like GPT-2 are trained on huge text datasets.Their goal is not to "understa
 
 ---
 
+**Practical-4 : Neural Network for Non-Linear Patterns**
+
+**1. The Problem**
+
+* Traditional **Linear Regression** can only draw a *straight line* through data.
+* But many real-world problems (like predicting weather, stock trends, human behavior, speech, or language) are **non-linear** (curvy, wavy, irregular).
+
+**Example:**
+Here we use a **sine wave** (`y = sin(x)`) as the dataset → it’s **non-linear**.
+
+**Why Sine Wave?**
+The sine wave (y = sin(x)) is a classic non-linear function.If you try to fit a straight line (linear regression), **it will completely fail because the curve goes up and down**.this makes it a perfect test case to show **why we need neural networks instead of simple linear models**.
+
+**2. The Neural Network**
+
+I used `MLPRegressor` (Multi-Layer Perceptron) → this is a simple **feedforward neural network**.
+* `hidden_layer_sizes=(10,10)` → two hidden layers, each with 10 neurons.
+* Each layer transforms the input, applying **non-linear activation functions**.
+* The network learns how to bend and curve the prediction line to match the sine wave.
+  
+**3. The Learning Process**
+1. Input `X` (numbers from -3 to 3).
+2. Network passes them through layers of neurons.
+3. Uses **backpropagation** to adjust weights to minimize error between predicted `y_pred` and actual `y`.
+4. After training, the red curve tries to match the blue sine curve.
+
+**Conclusion:**
+
+* **Linear models** (like regression) can only capture *straight-line relationships*.
+* **Neural networks** can capture **non-linear and complex patterns** because they stack layers and use non-linear activations.
+* This makes them powerful for tasks like image recognition, speech, and language understanding → where relationships aren’t simple lines but complex curves.
+👉 **Key takeaway:** Neural networks **generalize beyond straight lines** → they can approximate *any function* given enough layers and neurons (this is called the **Universal Approximation Theorem**).
+
+---
+
+
