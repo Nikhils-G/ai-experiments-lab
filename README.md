@@ -1,6 +1,6 @@
 # Understanding ds-ai-ml-dl-nn
 
-**Practical-1 . Autoencoders** properly in the hierarchy form :
+**Practical-1 : Autoencoders** properly in the hierarchy form :
 
 * **Field** → **Machine Learning (ML)**
 * **Subfield** → **Deep Learning (DL)** (because they use neural networks with multiple layers)
@@ -11,7 +11,7 @@
 
 ---
 
-**Practical-2 . Natural Language Processing (NLP)** in Hierarchy
+**Practical-2 : Natural Language Processing (NLP)** in Hierarchy
 
 **Field → Artificial Intelligence (AI)**
 **Subfield → Machine Learning (ML)**
@@ -43,7 +43,7 @@ This experiment helped me understand how **NLP models like BERT/DistilBERT work 
 
 ---
 
-**LLM Core Demo – Text Generation with GPT-2**
+**Practical-3 : LLM Core Demo – Text Generation with GPT-2**
 
 **Objective**
 Demonstrate the core idea of **Large Language Models (LLMs): predicting the next word**.  
