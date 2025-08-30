@@ -43,7 +43,21 @@ This experiment helped me understand how **NLP models like BERT/DistilBERT work 
 
 ---
 
+**LLM Core Demo – Text Generation with GPT-2**
 
+**Objective**
+Demonstrate the core idea of **Large Language Models (LLMs): predicting the next word**.  
 
+**Core Idea**
 
+LLMs like GPT-2 are essentially **next-word predictors** trained on massive text corpora.
+They generate text step by step, producing human-like sentences.
+
+**Conclusion**
+
+**This experiment demonstrates the core working principle of Large Language Models (LLMs):**
+
+LLMs like GPT-2 are trained on huge text datasets.Their goal is not to "understand" language in a human way, but to predict the most probable next word (token) based on the input sequence.By repeating this prediction step many times, they generate coherent and contextually relevant sentences.The experiment shows how the same model behaves differently depending on the starting prompt.For example, with “Artificial Intelligence is transforming the world because…”, GPT-2 completes the thought in a logical way, whereas with “In 2050, humans and machines will…”, it predicts a futuristic continuation.
+
+---
 
