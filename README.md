@@ -96,4 +96,24 @@ I used `MLPRegressor` (Multi-Layer Perceptron) → this is a simple **feedforwar
 
 ---
 
+**Practical-4: Core CNN Objective**
+
+**Objective**
+- Learn spatial patterns **(edges → curves → shapes → objects)**.
+- Use convolutions + pooling to **reduce complexity** and focus on **important features**.
+
+**Conclusion:**
+
+CNNs automatically learn **spatial features** from images:
+* **Convolution layers** detect simple patterns like edges and curves.
+* **Pooling layers** reduce complexity while keeping important info.
+* **Deeper layers** combine features to recognize complex shapes (like digits).
+
+**Core Objective:**
+Unlike traditional ML where features are hand-engineered, **CNNs learn features directly from raw data** → making them highly effective for computer vision tasks (MNIST accuracy **\~98%**).
+
+
+---
+
+
 
