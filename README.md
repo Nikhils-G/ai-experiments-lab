@@ -96,7 +96,7 @@ I used `MLPRegressor` (Multi-Layer Perceptron) → this is a simple **feedforwar
 
 ---
 
-**Practical-4: Core CNN Objective**
+**Practical-5 : Core CNN Objective**
 
 **Objective**
 - Learn spatial patterns **(edges → curves → shapes → objects)**.
