@@ -115,5 +115,21 @@ Unlike traditional ML where features are hand-engineered, **CNNs learn features 
 
 ---
 
+**Practical-6 : Text Classification with an RNN (LSTM)**
+
+**Objective**
+- Show how AI understands and classifies sequences of words.
+
+**Core Objective:**
+- Embedding layer → turns words into dense vectors (word meaning).
+- LSTM → remembers sequence context (not just words but order).
+- Model reaches ~87–90% accuracy on movie review sentiment classification.
+
+**Conclusion:**
+
+LSTM-based text classification shows how AI captures meaning from sequences. Instead of treating words as independent, the model learns context and order, enabling accurate predictions (positive/negative sentiment). This demonstrates the core NLP objective: making machines understand human language.
+
+---
+
 
 
