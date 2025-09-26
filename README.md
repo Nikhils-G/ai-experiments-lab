@@ -131,5 +131,20 @@ LSTM-based text classification shows how AI captures meaning from sequences. Ins
 
 ---
 
+**Practical-7 : Clustering with K-Means (Iris Dataset)**
 
+**Objective**
+
+* Show how AI can discover hidden groups in data without labels.
+
+**Core Objective:**
+
+* K-Means groups data based on **similarity (distance)**.
+* PCA reduces high-dimensional data into 2D for visualization.
+* Centroids represent the “center” of each discovered cluster.
+
+**Conclusion:**
+K-Means clustering demonstrates the power of **unsupervised learning**. Even without labels, the algorithm successfully finds natural groups in the Iris dataset. This highlights the **core ML objective** of discovering structure and patterns in raw data.
+
+---
 
