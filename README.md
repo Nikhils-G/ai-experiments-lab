@@ -29,7 +29,7 @@ Natural Language Processing (NLP) is a domain of AI that focuses on enabling mac
 * We used **Hugging Face Transformers** to build a **sentiment analysis pipeline**.
 * Model used: **DistilBERT fine-tuned on SST-2 dataset** (binary classification: Positive / Negative).
 * Input: A text sentence.
-* Output: The sentiment label (Positive/Negative) + Confidence Score.
+* Output:- The sentiment label (Positive/Negative) + Confidence Score.
 
 **Why I Did This**
 
