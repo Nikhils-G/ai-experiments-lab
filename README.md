@@ -148,3 +148,22 @@ K-Means clustering demonstrates the power of **unsupervised learning**. Even wit
 
 ---
 
+
+**Practical-8 : Dimensionality Reduction using PCA (Digits Dataset)**
+
+**Objective**
+
+* Show how AI can simplify high-dimensional data while retaining important information.
+
+**Core Objective:**
+
+* PCA identifies directions (principal components) that capture the **maximum variance** in data.
+* It reduces complex datasets (many features) into fewer dimensions for easier visualization and computation.
+* Similar data points stay close together even after compression, revealing meaningful patterns.
+
+**Conclusion:**
+PCA demonstrates the **core ML objective** of simplifying data without losing essential structure.
+By projecting high-dimensional data into a smaller space, PCA enables visualization, faster learning, and clearer understanding of relationships between samples — forming the foundation for **feature extraction and noise reduction** in AI.
+
+---
+
