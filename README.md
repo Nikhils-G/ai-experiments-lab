@@ -167,3 +167,21 @@ By projecting high-dimensional data into a smaller space, PCA enables visualizat
 
 ---
 
+**Practical-9 : Decision Tree Classification (Iris Dataset)**
+
+**Objective**
+
+* Show how AI makes predictions by learning decision rules from data.
+
+**Core Objective:**
+
+* Decision Tree splits data based on **feature thresholds** (like “Petal length ≤ 2.5”).
+* Each split aims to **maximize purity** of resulting groups using measures like Gini Index or Entropy.
+* The model forms a tree structure of **if–else rules**, making predictions interpretable and explainable.
+
+**Conclusion:**
+Decision Tree Classification illustrates the **core ML objective** of learning patterns and decision logic directly from data.
+It provides a clear visual understanding of how AI models make predictions — combining accuracy with interpretability. This makes it a foundation for advanced models like **Random Forests and Gradient Boosting**.
+
+---
+
