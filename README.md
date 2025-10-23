@@ -185,3 +185,23 @@ It provides a clear visual understanding of how AI models make predictions — c
 
 ---
 
+**Practical-10 : Random Forest Classification (Iris Dataset)**
+
+**Objective**
+
+* Show how combining multiple decision trees improves prediction accuracy and stability.
+
+**Core Objective:**
+
+* Random Forest is an **ensemble method** — it builds many Decision Trees and averages their predictions.
+* Each tree is trained on a random subset of data and features, reducing **overfitting**.
+* Final prediction is based on the **majority vote** of all trees.
+* Offers higher accuracy and robustness compared to a single Decision Tree.
+
+**Conclusion:**
+Random Forest demonstrates the **core ML objective** of improving performance through ensemble learning.
+By combining the strengths of multiple weak learners, the model achieves greater accuracy, generalization, and reliability — reflecting how AI systems use collective intelligence for stronger decision-making.
+
+---
+
+
