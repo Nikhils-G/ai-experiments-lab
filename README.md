@@ -203,7 +203,7 @@ Random Forest demonstrates the **core ML objective** of improving performance th
 By combining the strengths of multiple weak learners, the model achieves greater accuracy, generalization, and reliability — reflecting how AI systems use collective intelligence for stronger decision-making.
 
 ---
-## **Practical-10 : Decision Tree Classification (Iris Dataset)**
+## **Practical-11 : Decision Tree Classification (Iris Dataset)**
 
 ### **Objective**
 
