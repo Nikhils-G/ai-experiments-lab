@@ -203,5 +203,28 @@ Random Forest demonstrates the **core ML objective** of improving performance th
 By combining the strengths of multiple weak learners, the model achieves greater accuracy, generalization, and reliability — reflecting how AI systems use collective intelligence for stronger decision-making.
 
 ---
+## **Practical-10 : Decision Tree Classification (Iris Dataset)**
+
+### **Objective**
+
+* Demonstrate how a Decision Tree learns simple **if–else rules** to classify data.
+* Show how AI makes decisions by splitting data based on the most informative features.
+
+### **Core Objective:**
+
+* A Decision Tree splits data using features like **petal length** or **petal width** to create clear decision boundaries.
+* Each split aims to **maximize purity** using metrics like **Gini impurity** or **entropy**.
+* The model learns a sequence of human-interpretable rules (like a flowchart).
+* Decision Trees are easy to interpret but may **overfit** if not pruned.
+
+### **Conclusion:**
+
+Decision Tree Classification shows the **core ML objective** of learning decision rules from data.
+It mimics human decision-making by creating simple, interpretable logic based on feature conditions.
+
+While a single tree is intuitive and powerful for small datasets, it can easily memorize the training data — which is why ensemble methods like Random Forests often perform better. Still, Decision Trees remain a foundation of supervised learning because of their clarity and interpretability.
+
+---
+
 
 
