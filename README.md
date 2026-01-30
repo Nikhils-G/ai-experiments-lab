@@ -226,5 +226,27 @@ While a single tree is intuitive and powerful for small datasets, it can easily 
 
 ---
 
+## **Practical-12 : Logistic Regression Classification (Iris Dataset)**
+
+### **Objective**
+
+* Demonstrate how Logistic Regression learns **probability-based decision boundaries** for classification.
+* Show how AI uses the **sigmoid function** to map linear combinations to class probabilities.
+
+### **Core Objective:**
+
+* Logistic Regression uses the **sigmoid function** to map linear combinations of features to probabilities between 0 and 1.
+* It learns **linear decision boundaries** that separate classes based on feature values.
+* The model outputs **class probabilities**, making predictions interpretable and confidence-aware.
+* Logistic Regression is simple, efficient, and works well for **linearly separable** data.
+
+### **Conclusion:**
+
+Logistic Regression demonstrates the **core ML objective** of learning probability-based decision boundaries for classification. Despite its name, it is a classification algorithm that uses the sigmoid function to map predictions to probabilities.
+
+It learns linear decision boundaries that separate classes, making it highly interpretable and efficient. This forms the foundation for understanding more complex classifiers like Neural Networks and SVMs.
+
+---
+
 
 
