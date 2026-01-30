@@ -278,5 +278,40 @@ This pipeline forms the foundation for tackling real-world classification proble
 
 ---
 
+## **Practical-14 : Advanced Deep Learning CNN Image Classification (Fashion-MNIST)**
+
+### **Objective**
+
+* Build a **production-level deep learning pipeline** using Convolutional Neural Networks (CNNs).
+* Demonstrate **advanced techniques**: custom architecture, data augmentation, regularization, and adaptive training.
+
+### **Core Objective:**
+
+* **Custom CNN Architecture**: 3 convolutional blocks with increasing filter depth (32→64→128).
+* **Advanced Regularization**: Batch Normalization and Dropout to prevent overfitting.
+* **Data Augmentation**: Real-time augmentation (rotation, shift, shear, zoom, flip) for better generalization.
+* **Adaptive Training**: ReduceLROnPlateau and EarlyStopping callbacks for optimal training.
+* **Comprehensive Evaluation**: Confusion matrix, per-class metrics, error analysis, prediction confidence.
+
+### **Conclusion:**
+
+This experiment demonstrates a **production-level deep learning pipeline** for image classification using TensorFlow/Keras.
+
+**Key Techniques:**
+- Custom CNN with BatchNorm + Dropout regularization
+- Data augmentation for improved generalization
+- Learning rate scheduling and early stopping
+- Detailed error analysis and per-class performance
+
+**Key Insights:**
+- CNNs learn hierarchical features (edges → textures → patterns)
+- Regularization prevents overfitting in deep networks
+- Some classes (Shirt vs T-shirt) are inherently harder to distinguish
+- Visualization helps understand model behavior and failure modes
+
+This pipeline demonstrates **industry best practices** for deep learning image classification.
+
+---
+
 
 
