@@ -248,5 +248,35 @@ It learns linear decision boundaries that separate classes, making it highly int
 
 ---
 
+## **Practical-13 : Advanced Multi-Model Classification with Cross-Validation & Hyperparameter Tuning (Breast Cancer Dataset)**
+
+### **Objective**
+
+* Build a **complete production-level ML pipeline** comparing multiple classification algorithms.
+* Demonstrate **cross-validation**, **hyperparameter tuning**, and **ensemble methods** for robust model evaluation.
+
+### **Core Objective:**
+
+* **Multi-Model Comparison**: Evaluated 5 algorithms — Logistic Regression, SVM, Random Forest, Gradient Boosting, and KNN.
+* **Cross-Validation (5-Fold)**: Ensures robust performance estimates across different data splits.
+* **GridSearchCV Hyperparameter Tuning**: Optimized Random Forest and SVM to find best parameters.
+* **Advanced Metrics**: ROC curves, AUC scores, confusion matrices, F1-scores, and learning curves.
+* **Feature Importance Analysis**: Identified most predictive features using Random Forest.
+* **Ensemble Voting Classifier**: Combined top models for improved predictions.
+
+### **Conclusion:**
+
+This advanced experiment demonstrates a **complete production-level ML pipeline** for classification tasks.
+
+**Key Results:**
+- Best individual models achieved **98.25% accuracy** (Logistic Regression, Random Forest)
+- Ensemble Voting Classifier achieved **99.50% AUC-ROC**
+- Cross-validation showed Logistic Regression with highest mean accuracy (98.02%)
+- Top predictive features: worst perimeter, worst concave points, worst radius
+
+This pipeline forms the foundation for tackling real-world classification problems with **best ML practices** — combining model comparison, hyperparameter optimization, and ensemble learning.
+
+---
+
 
 
