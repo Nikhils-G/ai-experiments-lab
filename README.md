@@ -235,36 +235,16 @@ While a single tree is intuitive and powerful for small datasets, it can easily 
 
 ### **Core Objective:**
 
-* **Field** → **Machine Learning (ML)**
-* **Subfield** → **Supervised Learning**
-* **Category** → **Classification**
-* **Technique** → **Probabilistic Linear Classifier**
-
-> Logistic Regression is a **fundamental classification algorithm** that predicts the probability of a sample belonging to a class. Despite its name, it's used for **classification, not regression**. It applies the **sigmoid (logistic) function** to a linear combination of features to produce probabilities between 0 and 1.
-
-**What I Did**
-
-* Loaded the **Iris dataset** with 4 features and 3 flower species.
-* Split data into **training (70%)** and **testing (30%)** sets.
-* Applied **StandardScaler** for feature normalization.
-* Trained a **Logistic Regression** model using scikit-learn.
-* Evaluated the model using **accuracy score**, **confusion matrix**, and **classification report**.
-* Visualized **decision boundaries** in 2D using the first two features.
-
-**Why I Did This**
-
-* **Foundational Algorithm**: Logistic Regression is one of the first algorithms to learn in ML classification.
-* **Interpretability**: The model provides clear probability outputs and decision boundaries.
-* **Practical Applications**: Used in spam detection, medical diagnosis, credit scoring, and more.
-* **Building Block**: Understanding Logistic Regression helps grasp Neural Networks (which stack multiple logistic units).
+* Logistic Regression uses the **sigmoid function** to map linear combinations of features to probabilities between 0 and 1.
+* It learns **linear decision boundaries** that separate classes based on feature values.
+* The model outputs **class probabilities**, making predictions interpretable and confidence-aware.
+* Logistic Regression is simple, efficient, and works well for **linearly separable** data.
 
 ### **Conclusion:**
 
-Logistic Regression demonstrates the **core ML objective** of learning probability-based decision boundaries for classification.
+Logistic Regression demonstrates the **core ML objective** of learning probability-based decision boundaries for classification. Despite its name, it is a classification algorithm that uses the sigmoid function to map predictions to probabilities.
 
-Despite its name, Logistic Regression is a **classification algorithm** that uses the sigmoid function to map predictions to probabilities. It learns linear decision boundaries that separate classes, making it highly interpretable and efficient.
-
-On the Iris dataset, Logistic Regression achieves high accuracy (~97%) by finding optimal boundaries between flower species. This forms the foundation for understanding more complex classifiers like Neural Networks and SVMs.
+It learns linear decision boundaries that separate classes, making it highly interpretable and efficient. This forms the foundation for understanding more complex classifiers like Neural Networks and SVMs.
 
 ---
 
