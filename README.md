@@ -313,5 +313,67 @@ This pipeline demonstrates **industry best practices** for deep learning image c
 
 ---
 
+## **Practical-15 : Decision Tree Regression (California Housing Dataset)**
+
+### **Objective**
+
+* Demonstrate how Decision Trees can predict **continuous values** (regression), not just classes.
+* Show how the tree splits data to minimize prediction error for numerical targets.
+
+### **Core Objective:**
+
+* **Regression vs Classification**: Previous practicals used trees for classification; this shows regression.
+* **MSE-based Splitting**: Regression trees use Mean Squared Error instead of Gini/Entropy.
+* **Step-wise Predictions**: Trees create piecewise constant functions by averaging values in leaf regions.
+* **Feature Importance**: Identifies which features (like Median Income) most impact house prices.
+
+### **Conclusion:**
+
+Decision Tree Regression demonstrates how trees can be adapted for **continuous prediction tasks**. By minimizing MSE at each split, the tree learns to partition the feature space into regions with similar target values — enabling non-linear regression without explicit feature engineering. The bias-variance tradeoff is clearly visible: shallow trees underfit, deep trees overfit.
+
+---
+
+## **Practical-16 : Advanced Decision Tree Analysis (Pruning & Visualization)**
+
+### **Objective**
+
+* Master **pruning techniques** to prevent overfitting in Decision Trees.
+* Understand **pre-pruning vs post-pruning** strategies.
+* Visualize tree structure and decision boundaries in depth.
+
+### **Core Objective:**
+
+* **Pre-Pruning**: Set constraints BEFORE training (max_depth, min_samples_split, min_samples_leaf).
+* **Post-Pruning**: Grow full tree, then remove branches using cost-complexity pruning (ccp_alpha).
+* **Cross-Validation**: Robust parameter selection using 5-fold CV.
+* **GridSearchCV**: Efficiently search multiple parameter combinations.
+
+### **Conclusion:**
+
+Pruning demonstrates the fundamental **bias-variance tradeoff** in machine learning. By carefully controlling tree complexity through pre-pruning parameters or post-pruning with ccp_alpha, we can build models that generalize well to unseen data. The key insight: simpler trees are often more robust and interpretable than fully-grown trees.
+
+---
+
+## **Practical-17 : Decision Tree from Scratch**
+
+### **Objective**
+
+* Build a Decision Tree classifier **from scratch** without using sklearn.
+* Understand the **mathematical foundations**: Gini impurity, Entropy, Information Gain.
+* Implement the **recursive splitting algorithm** that powers Decision Trees.
+
+### **Core Objective:**
+
+* **Gini Impurity**: Measures node purity — $Gini = 1 - \sum p_i^2$
+* **Entropy**: Measures disorder — $Entropy = -\sum p_i \log_2(p_i)$
+* **Information Gain**: Reduction in impurity after a split.
+* **Recursive Algorithm**: Greedy divide-and-conquer approach to build the tree.
+
+### **Conclusion:**
+
+Building a Decision Tree from scratch reveals the elegant **recursive divide-and-conquer** strategy at its heart. The algorithm greedily selects the split that maximizes Information Gain, creating interpretable decision rules that partition the feature space into pure regions. Our implementation achieves similar accuracy to sklearn, demonstrating that the core algorithm is straightforward yet powerful. This foundational understanding is essential for grasping more advanced ensemble methods like Random Forests and Gradient Boosting.
+
+---
+
 
 
